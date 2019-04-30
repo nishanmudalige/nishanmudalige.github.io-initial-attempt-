@@ -9,6 +9,11 @@
      width: 100px; 
 }
 
+#inner {
+  width: 50%;
+  margin: 0 auto;
+}
+
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
