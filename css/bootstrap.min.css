@@ -25,6 +25,7 @@ body{
   color:#fff;
 }
 
+/*!
 .container{
   max-width:960px;
   padding-left:1rem;
@@ -32,6 +33,7 @@ body{
   margin:auto;
   text-align:center;
 }
+*/
 
 .fullscreen-video-wrap{
   position:absolute;
