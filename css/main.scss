@@ -46,17 +46,20 @@ $theme-dark: #222;
 ;
 
 
+/*
 .smallcontainer {
   padding-right: 100px;
   padding-left: 100px;
   margin-right: auto;
   margin-left: auto;
 }
+*/
 
 *{
   box-sizing: border-box;
 }
 
+/*
 body{
   margin:0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -66,6 +69,8 @@ body{
   color:#333;
   overflow-x:hidden;
 }
+*/
+
 
 .v-header{
   height:100vh;
@@ -74,6 +79,7 @@ body{
   color:#fff;
 }
 
+/*
 .container{
   max-width:960px;
   padding-left:1rem;
@@ -81,6 +87,8 @@ body{
   margin:auto;
   text-align:center;
 }
+*/
+
 
 .fullscreen-video-wrap{
   position:absolute;
@@ -104,7 +112,7 @@ body{
   width:100vw;
   z-index:1;
   background:#225470;
-  opacity:0.85;
+  opacity:0.75;
 }
 
 .header-content{
@@ -139,9 +147,11 @@ body{
   color:#fff;
 }
 
+/*
 @media(max-width:960px){
   .container{
     padding-right:3rem;
     padding-left:3rem;
   }
 }
+*/
