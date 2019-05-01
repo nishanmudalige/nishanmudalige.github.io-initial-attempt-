@@ -10,7 +10,6 @@
                 <div class="row">
                     <div class="col-lg-6 col-md-3 text-left">
                         <div class="service-box">       
-
                         <head>
                             <style>
                               /* Set the size of the div element that contains the map */
@@ -28,10 +27,10 @@
                         // Initialize and add the map
                         function initMap() {
                           // The location of Uluru
-                          var uluru = {lat: -25.344, lng: 131.036};
+                          var uluru = {lat: 43.530706, lng: -80.227486};
                           // The map, centered at Uluru
                           var map = new google.maps.Map(
-                              document.getElementById('map'), {zoom: 4, center: uluru});
+                              document.getElementById('map'), {zoom: 16, center: uluru});
                           // The marker, positioned at Uluru
                           var marker = new google.maps.Marker({position: uluru, map: map});
                         }
@@ -44,10 +43,10 @@
                             
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-3 text-right">
+                    <div class="col-lg-6 col-md-3 text-left">
                         <div class="service-box">
-                            <h4>Sep 2016 - Present</h4>
-                            <i class="text-faded">Guelph, ON, Canada</i>
+                            <h4>Office Address</h4>
+                            <!-- <i class="text-faded">Guelph, ON, Canada</i> -->
                             <!-- <i class="text-muted">Guelph, ON, Canada</i> -->
                         </div>
                     </div>
@@ -56,10 +55,6 @@
             <!-- New section -->
             <!-- New section -->
             <!-- New section -->
-            
-            
-            
-            
             
             <!--
             <div class="col-lg-8 col-lg-offset-2 text-center">
@@ -88,120 +83,3 @@
         </div>
     </div>
 </section>
-  
-<!--
-<section id="contact">
-  <center>
-  <h2 class="section-heading">Contact Me</h2>
-  <hr class="primary">
-  </center>
-  <head>
-    <style>
-      /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 90%;  /* The width is the width of the web page */
-       }
-    </style>
-  </head>
-  <body>
-    <!--The div element for the map -->
-    <div id="map"></div>
-    <script>
-// Initialize and add the map
-function initMap() {
-  // The location of macn
-  var macn = {lat: 43.530817, lng: -80.227591};
-  // The map, centered at macn
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 15, center: macn});
-  // The marker, positioned at macn
-  var marker = new google.maps.Marker({position: macn, map: map});
-}
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBWfDD6VIEZe7f-BZKlxo8LwKRbEjZ4MRU&callback=initMap">
-    </script>
-  </body>
-</section>
--->
-<!--
-<!DOCTYPE html>
-<html>
-  <head>
-    <style>
-      /* Set the size of the div element that contains the map */
-      #map {
-        height: 400px;  /* The height is 400 pixels */
-        width: 900%;  /* The width is the width of the web page */
-       }
-    </style>
-  </head>
-  <body>
-    <h3>My Google Maps Demo</h3>
-    <div id="map"></div>
-    <script>
-// Initialize and add the map
-function initMap() {
-  // The location of Uluru
-  var uluru = {lat: -25.344, lng: 131.036};
-  // The map, centered at Uluru
-  var map = new google.maps.Map(
-      document.getElementById('map'), {zoom: 4, center: uluru});
-  // The marker, positioned at Uluru
-  var marker = new google.maps.Marker({position: uluru, map: map});
-}
-    </script>
-    <script async defer
-    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpjNXtGZzazKufFlR7kt3q3FHMN4VlHgM&callback=initMap">
-    </script>
-  </body>
-</html>
--->
-
-<!--
-<section id="contact">
-    <div class="container">
-        <div class="row">
-            <div class="col-lg-8 col-lg-offset-2 text-center">
-                <h2 class="section-heading">Contact Me</h2>
-                <hr class="primary">
-                <p>Please feel free to contact me by email.</p>
-            </div>
-        <div class="col-lg-2 col-lg-offset-2 text-center">
-            <a href="https://stackoverflow.com/users/8447442/nm">
-                <i class="fa fa-stack-overflow fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{https://stackoverflow.com/users/8447442/nm}}</p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="mailto:mudalign@uoguelph.ca">
-            <i class="fa fa-envelope-o fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{mudalign@uoguelph.ca}}</p>
-            </a>
-        </div>
-        <div class="col-lg-2 col-lg-offset-1 text-center">
-            <a href="https://github.com/nishanmudalige/">
-            <i class="fa fa-github fa-3x wow bounceIn" data-wow-delay=".1s"></i>
-                <p>{{https://github.com/nishanmudalige/}}</p>
-            </a>
-        </div>
-
-    </div>
-        
-<div id="googleMap" style="width:100%;height:400px;"></div>
-
-<script>
-function myMap() {
-var mapProp= {
-  center:new google.maps.LatLng(43.530706, -80.227486),
-  zoom:8,
-};
-var map = new google.maps.Map(document.getElementById("googleMap"),mapProp);
-}
-</script>
-
-<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAWInHQYUL6rVGO06fryEVdBx2Uw5QUIWQ&callback=myMap"></script>
-        
-</section>
--->
