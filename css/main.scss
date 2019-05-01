@@ -34,11 +34,9 @@
 // }
 
 // variables.less
-$theme-primary: #E74C3C;
+$theme-primary: #2874A6;
 $theme-dark: #222;
-//$theme-primary: #3498DB;
-//$theme-primary: #F05F40;
-//$theme-dark: #222;
+
 
 // Import partials from `sass_dir` (defaults to `_sass`)
 @import
@@ -51,7 +49,7 @@ $theme-dark: #222;
 
 
 
-*{
+{
   box-sizing: border-box;
 }
 
