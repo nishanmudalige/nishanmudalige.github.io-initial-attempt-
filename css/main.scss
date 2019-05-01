@@ -67,11 +67,12 @@ body{
 }
 */
 
+
 .v-header{
   height:100vh;
   display:flex;
   align-items:center;
-  color:#fff;
+  //color:#fff;
 }
 
 .container{
@@ -79,7 +80,8 @@ body{
   padding-left:1rem;
   padding-right:1rem;
   margin:auto;
-  text-align:center;
+  //text-align:center;
+  text-align:left;
 }
 
 .fullscreen-video-wrap{
@@ -160,5 +162,5 @@ body{
   height:100vh;
   display:flex;
   align-items:center;
-  color:#fff;
+  //color:#fff;
 }
