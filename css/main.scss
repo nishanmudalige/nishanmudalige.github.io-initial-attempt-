@@ -54,6 +54,8 @@ $theme-dark: #222;
   box-sizing: border-box;
 }
 
+
+/*
 body{
   margin:0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -63,6 +65,7 @@ body{
   color:#333;
   overflow-x:hidden;
 }
+*/
 
 .v-header{
   height:100vh;
@@ -119,6 +122,7 @@ body{
   padding-bottom:2rem;
 }
 
+/*
 .btn{
   background: #34b3a0;
   color:#fff;
@@ -126,15 +130,22 @@ body{
   padding: 1rem 2rem;
   text-decoration: none;
 }
+*/
 
+
+/*
 .section{
   padding:20px 0;
 }
+*/
 
+/*
 .section-b{
   background:#333;
   color:#fff;
 }
+*/
+
 
 @media(max-width:960px){
   .container{
