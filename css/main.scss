@@ -49,8 +49,15 @@ $theme-dark: #222;
 
 
 
-*{
+{
   box-sizing: border-box;
+}
+
+
+body{
+  margin:0;
+  font-family: 'Computer Modern';
+  overflow-x:hidden;
 }
 
 
