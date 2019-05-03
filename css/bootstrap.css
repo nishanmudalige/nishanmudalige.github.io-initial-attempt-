@@ -6581,14 +6581,3 @@ button.close {
   }
 }
 /*# sourceMappingURL=bootstrap.css.map */
-
-
-
-
-nav a{
-  font-size: 1.0em !important;
-}
-.nav li{
-  padding-right:0px;
-  padding-left:0px;
-}
