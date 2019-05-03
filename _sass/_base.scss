@@ -11,12 +11,18 @@ body {
 hr {
     border-color: $theme-primary;
     border-width: 3px;
-    max-width: 100px;
+    max-width: 61px;
 }
 
 hr.light {
     border-color: white;
 }
+
+
+hr.light {
+    border-color: white;
+}
+
 
 a {
     @include transition-all;
