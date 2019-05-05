@@ -190,13 +190,21 @@ div.myft {
 
 
 .section:hover {
-  transform: scale(2.0);
-    position:relative;
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+
+    -webkit-transition: transform 0.1s ease-in-out;
+    -moz-transition:transform 0.1s ease-in-out;
+    -ms-transition:transform 0.15s ease-in-out;
 }
 
 /*
 .section {
-  transition: all 0.25s;
+  transition: all 0.1s;
   transform-origin: 50% 50%;
 }
 */
