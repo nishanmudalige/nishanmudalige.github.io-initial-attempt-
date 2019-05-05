@@ -187,3 +187,14 @@ div.myft {
   padding-top: 25px;
   padding-bottom: 25px;
 }
+
+
+.thumbnail:hover {
+    position:relative;
+    top:-25px;
+    left:-35px;
+    width:7em;
+    height:7em;
+    display:block;
+    z-index:999;
+}
