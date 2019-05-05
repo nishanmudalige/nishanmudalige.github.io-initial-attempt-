@@ -202,6 +202,22 @@ div.myft {
     -ms-transition:transform 0.355s ease-in-out;
 }
 
+
+.section.mybtn:hover {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    -o-transform: scale(1.2);
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+
+    -webkit-transition: transform 0.35s ease-in-out;
+    -moz-transition:transform 0.35s ease-in-out;
+    -ms-transition:transform 0.355s ease-in-out;
+}
+
+
+
 /*
 .section {
   transition: all 0.1s;
