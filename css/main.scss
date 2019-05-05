@@ -189,10 +189,10 @@ div.myft {
 }
 
 
-.section:hover {
-  transform: scale(1.2);
+.myzoom:hover {
+  transform: scale(1.5);
 }
-.section {
-  transition: all 1s;
+.myzoom {
+  transition: all 0.25s;
   transform-origin: 50% 50%;
 }
