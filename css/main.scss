@@ -189,11 +189,10 @@ div.myft {
 }
 
 
-.thumbnail:hover {
-    position:relative;
-    top:-25px;
-    left:-35px;
-    width:7em;
-    height:7em;
-    z-index:999;
+.section:hover {
+  transform: scale(1.2);
+}
+.section {
+  transition: all 1s;
+  transform-origin: 50% 50%;
 }
