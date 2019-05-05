@@ -196,17 +196,10 @@ div.myft {
     -ms-transform: scale(1.5);
     -webkit-transform: scale(1.5);
     transform: scale(1.5);
-        
-    /*
-    -webkit-transition: transform 0.25s ease-in-out;
-    -moz-transition:transform 0.25s ease-in-out;
-    -ms-transition:transform 0.255s ease-in-out;
-    */
 
-    -webkit-transition: transform 0.25s;
-    -moz-transition:transform 0.25s;
-    -ms-transition:transform 0.25s;
-   
+    -webkit-transition: transform 0.35s ease-in-out;
+    -moz-transition:transform 0.35s ease-in-out;
+    -ms-transition:transform 0.355s ease-in-out;
 }
 
 /*
