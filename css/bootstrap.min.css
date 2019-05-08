@@ -7866,7 +7866,7 @@ ul.nav li.dropdown:hover>ul.dropdown-menu {
     transition: all 0.3s ease;
 }
 #return-to-top:hover {
-    background: rgba(255, 0, 0, 0.75);
+    background: rgba(255, 0, 0, 0.50);
 }
 #return-to-top:hover i {
     color: #fff;
